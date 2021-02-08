@@ -72,4 +72,15 @@ a:active { /* selected link */
 .button:active {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+
+}
+.button.contact {
+  background-color: transparent;
+  color: #fca311;
+  text-transform: uppercase;
+  border: 2px solid #fca311;
+}
+.button.contact:hover {
+  background-color: #fca311;
+  color: #fafafa;
 }
