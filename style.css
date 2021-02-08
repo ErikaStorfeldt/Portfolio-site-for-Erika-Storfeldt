@@ -1,6 +1,6 @@
 /*
 Colors used:
-Primary Color (Blue): #fca311;
+Primary Color (Orange): #fca311;
 Secondary Color (Balck): #1f1f1f;
 Background Color (White): #fafafa;
 */
@@ -33,4 +33,23 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #fca311;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #fca311;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:visited { /* visited link */
+  color: #C48114;
+}
+a:active { /* selected link */
+  color: #C48114;
 }
