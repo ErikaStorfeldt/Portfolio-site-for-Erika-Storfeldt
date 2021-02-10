@@ -5,36 +5,42 @@ Secondary Color (Balck): #1f1f1f;
 Background Color (White): #fafafa;
 */
 
-header {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 10px 0;
-}
-
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
-  width: 100%;
-}
-
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #fca311;
-}
-
 body {
   background-color: #fafafa;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
   color: #1f1f1f;
+}
+
+header {
+  background-color: #1f1f1f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #1f1f1f;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.5);
+}
+
+main {
+  padding-top: 133px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #1f1f1f;
+  text-align: center;
+  padding: 10px 0;
 }
 
 h1, h2, h3, h4 {
@@ -113,15 +119,6 @@ a:active { /* selected link */
   text-decoration: none;
 }
 
-footer {
-  background-color: #1f1f1f;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  margin: 10px;
-}
-
 /* Layout styling */
 
 .container {
@@ -131,10 +128,19 @@ footer {
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #1f1f1f; }
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #1f1f1f;
+}
 
 #hero h1 {
   text-align: center; /* Centers text */
+}
+
+#hero {
+  background-color: #fafafa;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 .logo {
@@ -142,7 +148,25 @@ footer {
 }
 
 header {
-  background-color: #ffe4c4;
+  background-color: #1f1f1f;
   text-align: center;
   padding: 10px 0;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fca311;
 }
