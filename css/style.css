@@ -102,18 +102,16 @@ a:active {
   font-weight: 700;
   text-decoration: none;
   padding: 10px;
-  transition: 0.2s
+  transition: 0.2s opacity;
 }
 
 .buttonrm:hover {
   opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
 .buttonrm:active {
   opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
@@ -134,7 +132,6 @@ a:active {
 
 .button:active {
   opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
