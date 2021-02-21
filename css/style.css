@@ -1,0 +1,302 @@
+/*
+Colors used:
+Primary Color (Orange): #fca311;
+Secondary Color (Balck): #1f1f1f;
+Background Color (White): #fafafa;
+Button Visited (Light orange): #ffbe55
+*/
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+
+header {
+  background-color: #1f1f1f;
+  color: #1f1f1f;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.5);
+}
+
+main {
+  padding-top: 133px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  color: #fafafa;
+  padding: 10px 0;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 600;
+}
+
+#hero {
+  background-color: #fafafa;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  /* Centers text */
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #fca311;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:visited {
+  /* visited link */
+  color: #ffbe55;
+}
+
+a:hover,
+a:focus {
+  color: #FFD288;
+}
+
+a:active {
+  /* selected link */
+  color: #ffbe55;
+}
+
+.buttonrm {
+  display: inline-block;
+  background-color: #fca311;
+  color: #fafafa;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.2s
+}
+
+.buttonrm:hover {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.buttonrm:active {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button.contact {
+  display: inline-block;
+  background-color: #1f1f1f;
+  color: #fca311;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.2s opacity;
+}
+
+.button.contact:hover {
+  background-color: #1f1f1f;
+  color: #ffbe55;
+}
+
+.button:active {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+/* ==============================
+Logotype
+================================= */
+
+.logo {
+  max-width: 60px;
+}
+
+/* ==============================
+Navigation
+================================= */
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fca311;
+}
+
+/* ==============================
+Short cards
+================================= */
+
+.short-card>h5 {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.short-card>p {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+/* ==============================
+Animation
+================================= */
+
+@keyframes color-change {
+  0% {fill: #ffe0ac;}
+  50% {fill: #ffbe55;}
+  100% {fill: #fca311;}
+}
+
+.circlebig {
+  animation: 4s color-change infinite alternate linear;
+}
+
+.rectanglel {
+  animation: 3s color-change infinite alternate linear;
+}
+
+.rectangles {
+  animation: 1s color-change infinite alternate linear;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  body {
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #1f1f1f;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+
+@media only screen and (min-width: 1440px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  body {
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #1f1f1f;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+}
