@@ -140,6 +140,15 @@ a:active {
   padding: 0 15px;
 }
 
+.tools {
+  text-align: left;
+}
+
+.skills {
+  text-align: left;
+}
+
+
 /* ==============================
 Logotype
 ================================= */
