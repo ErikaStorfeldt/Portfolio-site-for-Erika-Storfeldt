@@ -165,6 +165,7 @@ Logotype
 Navigation
 ================================= */
 
+
 nav>ul {
   list-style-type: none;
   padding: 0;
@@ -179,6 +180,10 @@ nav>ul>li>a {
   text-transform: uppercase;
   font-weight: 700;
   color: #fca311;
+}
+
+.icon {
+  
 }
 
 /* ==============================
@@ -232,6 +237,14 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+
+  .navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
 
   .col-md-6 {
     width: 50%;
