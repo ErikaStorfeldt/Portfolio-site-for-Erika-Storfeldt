@@ -62,6 +62,7 @@ h4 {
 
 #hero {
   background-color: #fafafa;
+  color: #fafafa;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -156,7 +157,7 @@ a:active {
 Logotype
 ================================= */
 .logo {
-  max-width: 150px;
+  max-width: 54px;
 }
 
 /* ==============================
@@ -194,12 +195,13 @@ nav>ul>li>a {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -260,11 +262,11 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
-  nav > ul > li {
-      display: inline-block;
+  nav>ul>li {
+    display: inline-block;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
@@ -272,7 +274,7 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
-.navtoggle li:last-child {
+  .navtoggle li:last-child {
     display: none;
   }
 
@@ -283,7 +285,6 @@ Medium devices (640px and larger)
   [class*="col-"] {
     float: left;
   }
-
 }
 
 /* ==============================
