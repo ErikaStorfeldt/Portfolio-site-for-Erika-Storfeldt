@@ -1,10 +1,15 @@
+
 /*
-Colors used:
 Primary Color (Orange): #fca311;
 Secondary Color (Balck): #1f1f1f;
 Background Color (White): #fafafa;
-Button Visited (Light orange): #ffbe55
+
+Text Color; Buttons (White): #1f1f1f;
+Button Color (Orange); #fca311;
+Title and Body Text Color (Balck): #1f1f1f;
+Button Visited (Light orange): #ffca73
 */
+
 body {
   background-color: #fafafa;
   font-family: 'Open Sans', sans-serif;
@@ -16,7 +21,7 @@ body {
 
 header {
   background-color: #1f1f1f;
-  color: #1f1f1f;
+  color: #fafafa;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -26,7 +31,8 @@ header {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 footer {
@@ -62,12 +68,12 @@ h4 {
 
 #hero {
   background-color: #fafafa;
-  color: #fafafa;
-  padding: 20px 0;
+  color: #1f1f1f;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: inline-block;
   width: 100%;
   text-align: center;
-  /* Centers text */
 }
 
 img {
@@ -77,31 +83,32 @@ img {
 a {
   color: #fca311;
   text-decoration: none;
-  /* No underlining */
+  background-color: #1f1f1f;
 }
 
 a:visited {
-  /* visited link */
-  color: #ffbe55;
+  color: #ffca73;
+  background-color: #1f1f1f;
 }
 
 a:hover,
 a:focus {
-  color: #FFD288;
+  color: #fafafa;
+  background-color: #1f1f1f;
 }
 
 a:active {
-  /* selected link */
-  color: #ffbe55;
+  color: #ffca73;
+  background-color: #1f1f1f;
 }
 
 .buttonrm {
   display: inline-block;
   background-color: #fca311;
-  color: #fafafa;
+  color: #1f1f1f;
   font-weight: 700;
   text-decoration: none;
-  padding: 10px;
+  padding: 12px;
   transition: 0.2s opacity;
 }
 
@@ -117,17 +124,17 @@ a:active {
 
 .button.contact {
   display: inline-block;
-  background-color: #1f1f1f;
-  color: #fca311;
+  background-color: #fca311;
+  color: #1f1f1f;
   font-weight: 700;
   text-decoration: none;
-  padding: 10px;
+  padding: 12px;
   transition: 0.2s opacity;
 }
 
 .button.contact:hover {
   background-color: #1f1f1f;
-  color: #ffbe55;
+  color: #fafafa;
 }
 
 .button:active {
@@ -135,7 +142,6 @@ a:active {
   text-decoration: none;
 }
 
-/* Layout styling */
 .container {
   padding: 0 15px;
 }
